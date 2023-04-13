@@ -4206,15 +4206,11 @@ h1.page-title + .tag-cloud-list {
 .katex-wrap::-webkit-scrollbar {
   display: none;
 }
-.mathjax-overflow {
+mjx-container[display],
+.has-jax {
   overflow-x: auto;
   overflow-y: hidden;
-}
-span.mathjax-overflow {
-  display: inline-block;
-  padding: 0 2px;
-  max-width: 100%;
-  vertical-align: bottom;
+  line-height: normal !important;
 }
 .aplayer {
   color: #4c4948;
